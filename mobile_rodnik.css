@@ -1,0 +1,201 @@
+@media screen and (max-width: 640px) {
+}
+@media screen and (min-width: 640px) and (max-width: 768px) {
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    font-size: 8px;
+  }
+
+  .wrapper {
+    grid-template-columns: 0 100%;
+    padding-top: 5rem;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    height: 8rem;
+    width: 100vw;
+
+    background-color: black;
+    box-sizing: border-box;
+    z-index: 1002;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+  }
+
+  article {
+    width: 100vw;
+  }
+
+  .mobile-menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo_mobile,
+  .burger-menu {
+    height: 6rem;
+    margin: 0 4rem;
+  }
+
+  .logo_mobile img,
+  .burger-menu img {
+    height: 100%;
+  }
+
+  .page1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .chip {
+    position: relative;
+    width: 100vw;
+  }
+
+  .page5_flex {
+    flex-direction: column;
+  }
+
+  .chick {
+    height: 50%;
+    object-fit: cover;
+    position: relative;
+    margin-top: 1rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .page5_right {
+    padding: 2rem;
+    height: max-content;
+  }
+
+  .svg {
+    margin: 1rem 0;
+    position: relative;
+  }
+
+  .chip_icon {
+    width: 3.875rem;
+    height: 3.875rem;
+  }
+
+  .page7 {
+    grid-template-columns: 1fr;
+  }
+
+  .modal {
+    padding: 1rem 2rem;
+    position: relative;
+    margin: 0 auto 2rem;
+    right: 0;
+    text-align: center;
+  }
+
+  .modal .flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .page2,
+  .page5,
+  footer {
+    padding-right: 0;
+  }
+
+  .page5 {
+    padding: 0;
+    text-align: center;
+  }
+
+  .page5_right {
+    padding: 0;
+  }
+
+  .page5_right .zayavka_button {
+    margin: 0 auto;
+  }
+
+  .svg {
+    display: none;
+  }
+
+  .page7,
+  .page6,
+  .page2 {
+    padding-left: 1rem;
+  }
+
+  .page3 img {
+    width: 100%;
+  }
+
+  .page3_slider img {
+    width: 100%;
+  }
+
+  .inside-menu {
+    display: none;
+    position: fixed;
+    top: 8rem;
+    height: 100%;
+
+    background-color: black;
+    box-sizing: border-box;
+    z-index: 1003;
+    width: 50%;
+    left: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1084px) {
+  :root {
+    font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 1084px) and (max-width: 1280px) {
+  :root {
+    font-size: 11px;
+  }
+
+  .title {
+    line-height: normal;
+  }
+
+  .description {
+    line-height: normal;
+  }
+
+  .chip_icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1440px) {
+  :root {
+    font-size: 13px;
+  }
+
+  .chip_icon {
+    width: 30px;
+    height: 30px;
+  }
+}
